@@ -82,21 +82,21 @@ onload='document.form1.text1.focus()'
 <li>Name <span style="color:red">*</span><input type='text' id="name" name='text1' onblur="allLetter(document.form1.text1)" minlength=3 maxlength=30 required/></li>  
 <!-- <li class="rq">*</li> -->
 <li>&nbsp;</li> 
-<li>Address<textarea type='text' name='text2' minlength=5 maxlength=100 required></textarea></li>
-<li class="rq">*</li>
+<li>Address<span style="color:red">*</span><textarea type='text' name='text2' minlength=5 maxlength=100 required></textarea></li>
+<!--<li class="rq">*</li>-->
 <li>&nbsp;</li>
 
-<li>Phone no.<input type='text' id="no" name='text3' onblur="phonenumber()" required/></li>  
-<li class="rq">*</li>
+<li>Phone no.<span style="color:red">*</span><input type='text' id="no" name='text3' onblur="phonenumber()" required/></li>  
+<!--<li class="rq">*</li>-->
 <li>&nbsp;</li> 
 <li>Landline no.(optional)<input type='text' id="no" name='text3' onblur="phonenumber()"/></li>  
 <li>&nbsp;</li> 
-<li>Meeting Timings<select required>
+<li>Meeting Timings<span style="color:red">*</span><select required>
 <option value="">- Time -</option>
 <option value="11am-1pm">11am-1pm</option>
 <option value="4pm-6pm">4pm-6pm</option>
 </select></li>
-<li class="rq">*</li>
+<!--<li class="rq">*</li>-->
 <li>&nbsp;</li>
 <li class="rq">* Marked fields are mandatory </li>
 <!-- <li class="submit"><input type="submit" name="submit" value="Submit" onclick="phonenumber(document.form1.text1)"/></li> !-->
