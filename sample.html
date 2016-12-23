@@ -2,7 +2,7 @@
 <html>
 <head> <title>  WELCOME </title> </head>
   <style>
-    body{
+    /*body{
     background-color:black;
     }
     #mydiv{
@@ -16,7 +16,26 @@
     .mydiv2{
      color:green; 
       text-decoration:line-through;
-    }
+    }*/
+    #myDIV {
+    width: 300px;
+    height: 200px;
+    background: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
     /*h1{
       color:blue;
       text-decoration:overline;
@@ -32,7 +51,7 @@
     </style>
    <body>
 <!--<a class="photo" href="https://organizedlunacy.files.wordpress.com/2015/12/lights-1088141_1280.jpg?w=1200&h=0&crop=1" title="photo" id="photo">photo</a>-->
-  <div id='mydiv'> 
+  <div id="myDIV"> 
     <h1> This is a Sample 1</h1>
      </div>
   <div class='mydiv1'> 
