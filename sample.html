@@ -21,17 +21,17 @@
     width: 300px;
     height: 200px;
     background: red;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+      background-size:auto;
+    -webkit-animation: mymove 5s infinite; 
     animation: mymove 5s infinite;
 }
 
-/* Chrome, Safari, Opera */
+
 @-webkit-keyframes mymove {
     from {background-color: red;}
     to {background-color: blue;}
 }
 
-/* Standard syntax */
     @keyframes mymove {
     from {background-color: red;}
     to {background-color: blue;}
